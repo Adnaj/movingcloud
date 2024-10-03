@@ -2210,7 +2210,7 @@ ul {
 .popular-tours {
   position: relative;
   display: block;
-  padding: 130px 0;
+  padding: 80px 0;
 }
 
 .popular-tours__container {
@@ -2405,6 +2405,75 @@ ul {
 /*--------------------------------------------------------------
 # category card
 --------------------------------------------------------------*/
+.service-card{
+  border-radius: 9px;
+  background: #F4F6FA;
+  box-shadow: 0px 20px 35px 0px rgba(175, 158, 158, 0.1);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  height: 287px;
+  overflow: hidden;
+  position: relative;
+  padding: 25px;
+}
+.service-card .card-title{
+  color: #111;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+max-width: 360px;
+text-transform: capitalize;
+}
+.service-card .card-text{
+  color: rgba(51, 51, 51, 0.80);
+  font-feature-settings: 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 270px;
+  margin-top: 20px;
+}
+.service-card img{
+  max-width: 340px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+.card-title-animated {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 5px; /* Add some padding to give space for the underline */
+}
+
+.card-title-animated::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.card-title-animated:hover::before {
+  width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+# category card
+--------------------------------------------------------------*/
 
 
 .category-card{
@@ -2494,6 +2563,78 @@ button {
   position: relative;
   width: 15px;
   transition-delay: 0.2s;
+}
+
+.btn-card-enquire {
+  --primary-color: #111;
+  --hovered-color: var(--thm-primary);
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+  display: inline-flex;
+}
+
+.btn-card-enquire p {
+  margin: 0;
+  position: relative;
+  font-size: 17px;
+  color: var(--thm-black);
+  font-weight: 600;
+}
+
+.btn-card-enquire::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.btn-card-enquire p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  content: "Enquire";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.btn-card-enquire:hover::after {
+  width: 100%;
+}
+
+.btn-card-enquire:hover p::before {
+  width: 100%;
+}
+
+.btn-card-enquire:hover svg {
+  transform: translateX(4px);
+  color: var(--hovered-color);
+}
+
+.btn-card-enquire svg {
+  color: var(--primary-color);
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
+
+.destinations-one .section-title > p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #111;
+  max-width: 550px;
+  margin: auto;
+  line-height: 1.3;
 }
 
 
@@ -2841,17 +2982,7 @@ button {
   border-radius: var(--thm-border-radius);
 }
 
-.testimonail-one__content:before {
-  position: absolute;
-  top: -19px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 19px;
-  width: 63px;
-  background-repeat: no-repeat;
-  background-image: url(../assets/images/shapes/testimonial-one-shape-1.png);
-  content: "";
-}
+
 
 .testimonial-one__top-revivew-box {
   display: flex;
@@ -2863,7 +2994,7 @@ button {
 
 .testimonial-one__top-revivew-box i {
   color: #ffa801;
-  font-size: 16px;
+  font-size: 9px;
 }
 
 .testimonial-one__top-revivew-box i+i {
@@ -2872,25 +3003,38 @@ button {
 
 .testimonial-one__text {
   margin: 0;
-  line-height: 40px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  line-height: 1.6;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  text-align: left;
+  color: var(--thm-black);
+}
+.testi-img{
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+}
+.testimonial-one__client-info{
+  gap: 10px;
 }
 
 .testimonial-one__client-name {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
 }
 
 .testimonial-one__client-title {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   color: var(--thm-primary);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0;
-  line-height: 24px;
+  line-height: 20px;
+  text-align: left;
 }
 
 .testimonial-one__carousel {
@@ -3116,6 +3260,7 @@ button {
 .why-choose {
   position: relative;
   display: block;
+  margin-top: 60px;
 }
 
 .why-choose__container {
@@ -4177,19 +4322,19 @@ button {
 
 .counters-one__box {
   position: relative;
-  display: block;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 60px 0px rgb(0, 0, 0, 0.1);
+  display: flex;
   border-radius: var(--thm-border-radius);
-  padding-top: 60px;
-  padding-bottom: 25px;
+  padding-top: 110px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
 .counter-one__single {
   position: relative;
-  display: inline-block;
-  max-width: 318px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
@@ -4210,11 +4355,11 @@ button {
 }
 
 .counter-one__single h3 {
-  font-size: 50px;
-  color: var(--thm-primary);
-  font-weight: 400;
-  font-family: var(--thm-reey-font) !important;
-  line-height: 65px !important;
+  font-size: 43px;
+  color: #fff;
+  font-weight: 500;
+  font-family: var(--thm-secondary) !important;
+  line-height: 1.4;
   letter-spacing: var(--thm-letter-spacing);
 }
 
@@ -4222,7 +4367,9 @@ button {
   margin: 0;
   letter-spacing: var(--thm-letter-spacing);
   line-height: 21px;
-  margin-top: -10px;
+  margin-top: -7px;
+  color: #fff; 
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------

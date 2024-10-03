@@ -24,7 +24,7 @@ const settings = {
       gutter: 30,
     },
     1200: {
-      items: 3,
+      items: 2,
       gutter: 30,
     },
   },
@@ -56,8 +56,8 @@ const TestimonialOne = ({ aboutPage = false }) => {
       )}
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">{tagline}</span>
-          <h2 className="section-title__title">{title}</h2>
+          <span className="section-title__tagline">Testimonials</span>
+          <h2 className="section-title__title">What our happy clients say</h2>
         </div>
         <Row>
           <Col xl={12}>

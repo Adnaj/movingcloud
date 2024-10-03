@@ -5,7 +5,7 @@ import SingleDestination from "./SingleDestination";
 
 const DestinationsOne = () => {
   return (
-    <section className="destinations-one">
+    <section className="destinations-one mb-5">
       <Container>
         <div className="section-title text-center">
           <span className="section-title__tagline">Trending Destinations</span>

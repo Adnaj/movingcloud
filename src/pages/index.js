@@ -12,6 +12,7 @@ import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import TourSearch from "@/components/TourSearch/TourSearch";
 import VideoOne from "@/components/VideoOne/VideoOne";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
+import Services from "@/components/Services/services";
 import React from "react";
 
 const Home = () => {
@@ -23,14 +24,17 @@ const Home = () => {
       <PopularTypes /> 
       <VideoOne />
       <PopularTours />
+      <Services />
+
       {/* <AboutOne /> */}
     
       {/* <BrandOne /> */}
-      {/* <TestimonialOne /> */}
+      
       {/* <GalleryOne /> */}
       
       
       <WhyChoose />
+      <TestimonialOne />
       <DestinationsOne />
       {/* <NewsOne /> */}
     </Layout>

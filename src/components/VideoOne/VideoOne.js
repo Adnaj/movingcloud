@@ -2,6 +2,7 @@ import videoOne from "@/data/videoOne";
 import dynamic from "next/dynamic";
 import React, { Fragment, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import CounterOne from "@/components/CounterOne/CounterOne";
 import JarallaxImage from "../Jarallax/JarallaxImage";
 import VideoModal from "../VideoModal/VideoModal";
 
@@ -22,37 +23,7 @@ const VideoOne = () => {
         </Jarallax>
         <Container>
           <Row>
-            <Col xl={6} lg={6}>
-              <div className="video-one__left">
-                <div className="video-one__video-link">
-                </div>
-                <p className="video-one__tagline">{tagline}</p>
-                <h2 className="video-one__title">{title}</h2>
-              </div>
-            </Col>
-            <Col xl={6} lg={6}>
-              <div className="video-one__right">
-                <ul className="list-unstyled video-one__four-icon-boxes">
-                  {iconBoxes.map(({ id, icon, title }) => (
-                    <li key={id}>
-                      <div className="video-one__icon-box">
-                        <span className={icon}></span>
-                      </div>
-                      <h4 className="video-one__icon-box-title">
-                        <a href="#">
-                          {title.split("\n").map((t, i) => (
-                            <Fragment key={i}>
-                              <span>{t}</span>
-                              <br />
-                            </Fragment>
-                          ))}
-                        </a>
-                      </h4>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Col>
+            <CounterOne/>
           </Row>
         </Container>
       </section>
