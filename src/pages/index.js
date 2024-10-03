@@ -1,6 +1,7 @@
 import AboutOne from "@/components/AboutOne/AboutOne";
 import BrandOne from "@/components/BrandOne/BrandOne";
 import DestinationsOne from "@/components/DestinationsOne/DestinationsOne";
+import Poularcategories from "@/components/popularCategories/popularCategories";
 import GalleryOne from "@/components/GalleryOne/GalleryOne";
 import Layout from "@/components/Layout/Layout";
 import MainSlider from "@/components/MainSlider/MainSlider";
@@ -18,16 +19,20 @@ const Home = () => {
     <Layout pageTitle="Home One">
       <MainSlider />
       <TourSearch />
-      <DestinationsOne />
-      <AboutOne />
+      <Poularcategories />
+      <PopularTypes /> 
       <VideoOne />
+      <PopularTours />
+      {/* <AboutOne /> */}
+    
       {/* <BrandOne /> */}
       {/* <TestimonialOne /> */}
       {/* <GalleryOne /> */}
-      <PopularTours />
-      <PopularTypes /> 
+      
+      
       <WhyChoose />
-      <NewsOne />
+      <DestinationsOne />
+      {/* <NewsOne /> */}
     </Layout>
   );
 };
