@@ -40,16 +40,16 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
               <div className="popular-tours__meta list-unstyled three_list">
                 <div className="sec12_1">
                   <p>
-                    <span class="icon-clock"> </span>
+                    <span className="icon-clock"> </span>
                     {meta[0]}
                   </p>
                   <p>
-                    <i class="far fa-user-circle"></i> {meta[1]}
+                    <i className="far fa-user-circle"></i> {meta[1]}
                   </p>
                 </div>
                 <hr />
                 <div>
-                  <Link href="/">
+                  <Link href="/" passHref>
                     <div className="thm-btn-a">
                       Enquire on{" "}
                       <i className="fab fa-whatsapp" aria-hidden="true"></i>

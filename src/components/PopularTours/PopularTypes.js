@@ -65,7 +65,7 @@ const AboutOne = () => {
                 </div>
                 <div className="type-content">
                   <h3>{packageInfo.packageTitle}
-                  <svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104" fill="none"><g id="XMLID_21_"><path id="XMLID_1807_" d="M72.0466 83.3317C89.4651 72.1458 94.5176 48.9574 83.3316 31.5389C72.1457 14.1205 48.9573 9.06803 31.5389 20.2539C14.1204 31.4398 9.06797 54.6283 20.2539 72.0467C31.4398 89.4651 54.6282 94.5176 72.0466 83.3317Z" stroke="#161616" stroke-width="2.65205" stroke-miterlimit="10"></path><path id="XMLID_1806_" d="M39.3706 59.7703L64.2149 43.8156" stroke="#161616" stroke-width="2.65205" stroke-miterlimit="10"></path><path id="XMLID_1804_" d="M60.5449 60.2184L64.215 43.815L47.779 40.3233" stroke="#161616" stroke-width="2.65205" stroke-miterlimit="10"></path></g></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104" fill="none"><g id="XMLID_21_"><path id="XMLID_1807_" d="M72.0466 83.3317C89.4651 72.1458 94.5176 48.9574 83.3316 31.5389C72.1457 14.1205 48.9573 9.06803 31.5389 20.2539C14.1204 31.4398 9.06797 54.6283 20.2539 72.0467C31.4398 89.4651 54.6282 94.5176 72.0466 83.3317Z" stroke="#161616" strokeWidth="2.65205" strokeMiterlimit="10"></path><path id="XMLID_1806_" d="M39.3706 59.7703L64.2149 43.8156" stroke="#161616" strokeWidth="2.65205" strokeMiterlimit="10"></path><path id="XMLID_1804_" d="M60.5449 60.2184L64.215 43.815L47.779 40.3233" stroke="#161616" strokeWidth="2.65205" strokeMiterlimit="10"></path></g></svg>
                   </h3>
                 </div>
               </div>

@@ -10,5 +10,6 @@
       "@/hooks/*": ["src/hooks/*"],
       "@/data/*": ["src/data/*"]
     }
-  }
+  },
+  "include": ["src"]
 }

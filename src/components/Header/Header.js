@@ -45,9 +45,11 @@ const Header = ({ pageTitle }) => {
                   ))}
                 </div>
                 <div className="main-header__top-right-btn-box">
-                  <a href="/contact" className="thm-btn main-header__top-right-btn">
-                    {/* Become a local guide */} Get A Free Consultation
-                  </a>
+                  <Link href="/contact" passHref>
+                    <a className="thm-btn main-header__top-right-btn">
+                      Get A Free Consultation
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

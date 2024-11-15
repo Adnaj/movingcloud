@@ -49,6 +49,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
               <a
                 href="https://wa.me/+91 9747434555"
                 target="_blank"
+                rel="noreferrer"
                 className="flipcard_watsapp23"
               >
                 <Image src={require(`@/images/tour-dtl/whatsapp-fill-black.svg`).default.src} alt="" />
