@@ -15,7 +15,6 @@ const Layout = ({ children, pageTitle }) => {
     const timeoutId = setTimeout(() => {
       setLoading(false);
     }, 500);
-
     return () => clearTimeout(timeoutId);
   }, []);
 

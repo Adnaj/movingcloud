@@ -15,10 +15,29 @@ const PageHeader = ({ title = "", page = "", outerPage = "" }) => {
         <Container>
           <div className="page-header__top-inner">
             <h2>{title || page}</h2>
+            <div>
+              <ul className="thm-breadcrumb list-unstyled sub_breadcrumb23">
+                <li>
+                  <Link href="/">Home</Link>
+                </li>{" "}
+                <li>
+                  <span>/</span>
+                </li>{" "}
+                {outerPage && (
+                  <>
+                    <li>{outerPage}</li>{" "}
+                    <li>
+                      <span>.</span>
+                    </li>{" "}
+                  </>
+                )}
+                <li className="active">{page || title}</li>
+              </ul>
+            </div>
           </div>
         </Container>
       </div>
-      <div className="page-header__bottom">
+      {/* <div className="page-header__bottom">
         <Container>
           <div className="page-header__bottom-inner">
             <ul className="thm-breadcrumb list-unstyled">
@@ -40,7 +59,7 @@ const PageHeader = ({ title = "", page = "", outerPage = "" }) => {
             </ul>
           </div>
         </Container>
-      </div>
+      </div> */}
     </section>
   );
 };

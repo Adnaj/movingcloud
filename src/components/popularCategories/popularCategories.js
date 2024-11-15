@@ -38,10 +38,15 @@ const DestinationsOne = () => {
           {cards.map((card, index) => (
             <Col md={6} lg={3} key={index} className="mb-4">
               <Card className="category-card">
-                <Image
-                  src={require(`@/images/tourcategories/${card.img}`).default.src}
-                  alt={card.title}
-                />
+                <div className="card-img-container12">
+                  <Image
+                    src={
+                      require(`@/images/tourcategories/${card.img}`).default.src
+                    }
+                    alt={card.title}
+                  />
+                  <div className="img12-overlay"></div>
+                </div>
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Text>{card.description}</Card.Text>

@@ -1,10 +1,12 @@
-import popularTours from "@/data/popularTours";
+import popularToursThree from "@/data/popularToursThree";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import SingleTour from "./SingleTour";
+import SingleTourThree from "./SingleTourThree";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+
+const { tagline, title, popularTours } = popularToursThree;
 
 const settings = {
   lazyload: true,
@@ -12,7 +14,7 @@ const settings = {
   navPosition: "bottom",
   mouseDrag: true,
   items: 1,
-  autoplay: true,
+  autoplay: true, 
   autoHeight: true,
   controls: false,
   gutter: 0,
@@ -24,7 +26,7 @@ const settings = {
       gutter: 30,
     },
     1200: {
-      items: 4,
+      items: 3,
       gutter: 30,
     },
   },
@@ -32,8 +34,8 @@ const settings = {
 
 const PopularTours = () => {
   return (
-    <section className="popular-tours">
-      <div className="popular-tours__container">
+    <div className="popular-tours">
+      <div className="popular-tours__container container">
         <div className="section-title text-center">
           <span className="section-title__tagline">Featured tours</span>
           <h2 className="section-title__title">Most Popular Tours</h2>
@@ -43,15 +45,15 @@ const PopularTours = () => {
             <div className="popular-tours__carousel">
               <TinySlider settings={settings}>
                 {popularTours.map((tour) => (
-                  <SingleTour key={tour.id} tour={tour} />
+                  <SingleTourThree tour={tour} userSelect />
                 ))}
               </TinySlider>
             </div>
           </Col>
         </Row>
       </div>
-    </section>
-  );
+    </div>
+  ); 
 };
 
 export default PopularTours;

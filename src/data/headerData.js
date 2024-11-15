@@ -15,7 +15,13 @@ const navItems = [
     subNavItems: [],
   },
   {
-    id: 3,
+    id:3,
+    name: "Destintaions",
+    href: "/destinations",
+    subNavItems: [],
+  },
+  {
+    id: 4,
     name: "Holiday Packages",
     href: "/tours",
     subNavItems: [
@@ -26,7 +32,7 @@ const navItems = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Theme Packages",
     href: "/tours",
     subNavItems: [
@@ -37,7 +43,7 @@ const navItems = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Contact",
     href: "/contact",
     subNavItems: [],
@@ -46,9 +52,7 @@ const navItems = [
 
 const social = [
   { icon: "fa-facebook-square", link: "" },
-  { icon: "fa-twitter", link: "" },
   { icon: "fa-instagram", link: "" },
-  { icon: "fa-pinterest-p", link: "" },
 ];
 
 const headerData = {
@@ -56,7 +60,7 @@ const headerData = {
     {
       id: 1,
       icon: "icon-phone-call",
-      content: " +91 9746 629 003",
+      content: " +91 9747434555",
       subHref: "tel",
     },
     {

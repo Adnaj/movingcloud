@@ -8,7 +8,7 @@ SwiperCore.use([Autoplay, Navigation, EffectFade]);
 
 const mainSlideOptions = {
   slidesPerView: 3,
-  spaceBetween: 20,
+  spaceBetween: 10,
   loop: true,
   effect: "slide",
   navigation: {

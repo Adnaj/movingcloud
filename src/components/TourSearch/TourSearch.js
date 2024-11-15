@@ -7,7 +7,7 @@ const TourSearch = () => {
     <section className="tour-search">
       <Container>
         <Row>
-          <Col xl={12}>
+          <Col xl={11} className="mx-auto">
             <div className="tour-search-box">
               <TourSearchForm />
             </div>

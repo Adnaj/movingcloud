@@ -13,11 +13,12 @@ import TourSearch from "@/components/TourSearch/TourSearch";
 import VideoOne from "@/components/VideoOne/VideoOne";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import Services from "@/components/Services/services";
+import Whatsapp from "@/components/whatsapp/whatsapp";
 import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Moving Cloud">
       <MainSlider />
       <TourSearch />
       <Poularcategories />
@@ -37,6 +38,7 @@ const Home = () => {
       <TestimonialOne />
       <DestinationsOne />
       {/* <NewsOne /> */}
+      <Whatsapp/>
     </Layout>
   );
 };

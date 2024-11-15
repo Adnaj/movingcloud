@@ -1,7 +1,7 @@
-import loader from "@/images/loader.png";
+import loader from "@/images/tour-dtl/fav.png";
 import React from "react";
 import { Image } from "react-bootstrap";
-
+ 
 const Preloader = ({ loading }) => {
   return (
     <div

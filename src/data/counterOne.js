@@ -2,25 +2,25 @@ const counterOne = [
   {
     id: 1,
     text: "Satisfied Client",
-    count: 126,
+    count: 5000,
     img:'clients.png',
   },
   {
     id: 2,
-    text: "New Traveller",
-    count: 230,
-    img:'travellor.png',
+    text: "Tours Completed",
+    count: 5000,
+    img:'tourcompleted.png',
   },
   {
     id: 3,
-    text: "Destination",
-    count: 230,
+    text: "Destinations",
+    count: 1000,
     img:'destination.png',
   },
   {
     id: 4,
-    text: "Award",
-    count: 30,
+    text: "Experiance",
+    count: 15,
     img:'award.png',
   },
 ];

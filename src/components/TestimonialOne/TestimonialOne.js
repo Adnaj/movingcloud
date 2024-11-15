@@ -24,7 +24,7 @@ const settings = {
       gutter: 30,
     },
     1200: {
-      items: 2,
+      items: 3, 
       gutter: 30,
     },
   },
