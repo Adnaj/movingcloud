@@ -8,7 +8,7 @@ const SingleSlide = ({ slide = {} }) => {
   return (
     <SwiperSlide>
       <div className="tour_inner_slide13">
-        <Image src={require(`@/images/tour-dtl/${bg}`).default.src} alt={require(`@/images/tour-dtl/${bg}`).default.src} />
+        <Image src={`/images/tour-dtl/${bg}`} alt={`/${bg}`} />
       </div>
    
     </SwiperSlide>

@@ -10,7 +10,7 @@ const DestinationsDetailsLeft = () => {
   return (
     <div className="destinations-details__left">
       <div className="destinations-details__img">
-        <Image src={image.src} alt="" />
+        <Image src={image} alt="" />
       </div>
       <div className="destinations-details__discover">
         <h3 className="destinations-details__title">{discoverTitle}</h3>

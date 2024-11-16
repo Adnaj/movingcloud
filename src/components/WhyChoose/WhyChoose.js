@@ -10,13 +10,13 @@ const WhyChoose = () => {
         <div className="why-choose__left">
           <div
             className="why-choose__left-bg"
-            style={{ backgroundImage: `url(${bg.src})` }}
+            style={{ backgroundImage: `url(${bg})` }}
           ></div>
         </div>
         <div className="why-choose__right">
           <div
             className="why-choose__right-map"
-            style={{ backgroundImage: `url(${bg2.src})` }}
+            style={{ backgroundImage: `url(${bg2})` }}
           ></div>
           <div className="why-choose__right-content">
             <div className="section-title text-left">

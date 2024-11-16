@@ -17,7 +17,7 @@ const SingleTestimonial = ({ testimonial }) => {
           <div className="d-flex justify-content-between align-items-center">
             <div className="d-flex justify-content-between align-items-center testimonial-one__client-info">
               <Image className="testi-img"
-                src={require(`@/images/testimonial/${image}`).default.src}
+                src={`/images/testimonial/${image}`}
                 alt=""
               />
               <div>

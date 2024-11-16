@@ -1,4 +1,4 @@
-import logo from "@/images/resources/logo-white.png";
+const logo = "/images/resources/logo-white.png";
 
 const social = [
   { icon: "fa-twitter", link: "" },

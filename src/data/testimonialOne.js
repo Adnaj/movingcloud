@@ -1,6 +1,7 @@
-import bg from "@/images/shapes/about-page-testimonial-map.png";
-import shape1 from "@/images/shapes/testimonial-one-shape-2.png";
-import shape2 from "@/images/shapes/testimonial-one-shape-3.png";
+const bg = "/images/shapes/about-page-testimonial-map.png";
+const shape1 = "/images/shapes/testimonial-one-shape-2.png";
+const shape2 = "/images/shapes/testimonial-one-shape-3.png";
+
 
 const testimonialOne = {
   bg,

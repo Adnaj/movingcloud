@@ -7,7 +7,7 @@ const ToursList = () => {
   return (
     <Layout pageTitle="Tours List">
       <PageHeader title="Tours List" page="Tours" />
-      <ToursListPage />
+      {/* <ToursListPage /> */}
     </Layout>
   );
 };

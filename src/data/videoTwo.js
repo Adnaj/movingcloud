@@ -1,4 +1,5 @@
-import bg from "@/images/backgrounds/banner1.jpg";
+const bg = "/images/backgrounds/banner1.jpg";
+
 
 const videoTwo = {
   bg,

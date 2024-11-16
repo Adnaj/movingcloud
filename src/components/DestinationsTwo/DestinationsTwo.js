@@ -9,7 +9,7 @@ const DestinationsTwo = () => {
   return (
     <section className="destinations-two">
       <div className="destinations-two-shape animated slideInLeft">
-        <Image src={image.src} alt="" />
+        <Image src={image} alt="" />
       </div>
       <Container>
         <div className="destinations-two__top">

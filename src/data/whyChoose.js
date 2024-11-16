@@ -1,5 +1,6 @@
-import bg from "@/images/backgrounds/why-choose.jpg";
-import bg2 from "@/images/shapes/why-choose-right-map.png";
+const bg = "/images/backgrounds/why-choose.jpg";
+const bg2 = "/images/shapes/why-choose-right-map.png";
+
 
 const whyChoose = {
   bg,

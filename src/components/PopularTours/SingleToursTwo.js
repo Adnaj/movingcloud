@@ -14,7 +14,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
         <div className="flipcard-inner23">
           <div className="flipcard-front23">
             <Image
-              src={require(`@/images/tour-dtl/featured/${image}`).default.src}
+              src={`/images/tour-dtl/featured/${image}`}
               alt=""
             />
             <div className="flipcard-overlay23"></div>
@@ -36,12 +36,12 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
                 </div>
                 <div className="price_tag23">
                   <span>Starting from</span>
-                  <h2><Image src={require(`@/images/tour-dtl/rupee-black-large.svg`).default.src} alt="" /> 7000</h2>
+                  <h2><Image src={`/images/tour-dtl/rupee-black-large.svg`} alt="" /> 7000</h2>
                   <span>/person</span>
                 </div>
               </div>
               <div className="flipcard_btn_detail23">
-                <Link href="/tour-detail">
+                <Link href="/tour-details">
                   <a>View Details</a>
                 </Link>
               </div>
@@ -52,7 +52,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
                 rel="noreferrer"
                 className="flipcard_watsapp23"
               >
-                <Image src={require(`@/images/tour-dtl/whatsapp-fill-black.svg`).default.src} alt="" />
+                <Image src={`/images/tour-dtl/whatsapp-fill-black.svg`} alt="" />
                 <p>Enquire on WhatsApp</p>
               </a>
             </div>

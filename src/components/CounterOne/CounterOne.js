@@ -11,7 +11,7 @@ const CounterOne = () => {
           {counterOne.map(({ id, text, count,img }) => (
             <li key={id} className="counter-one__single animated fadeInUp">
               <Image
-                  src={require(`@/images/shapes/${img}`).default.src}
+                  src={`/images/shapes/${img}`}
                   alt=''
                 />
               <div>

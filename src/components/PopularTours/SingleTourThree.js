@@ -17,7 +17,7 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
             <div className="popular-tours__img">
               <div className="relative">
                 <Image
-                  src={require(`@/images/tour-dtl/${image}`).default.src}
+                  src={`/images/tour-dtl/${image}`}
                   alt=""
                 />
                 <div className="overlay23"></div>

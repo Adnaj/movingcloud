@@ -1,6 +1,7 @@
-import bg1 from "@/images/tour-dtl/trip1.webp";
-import bg2 from "@/images/tour-dtl/trip2.webp";
-import bg3 from "@/images/tour-dtl/trip1.webp";
+const bg1 = "/images/tour-dtl/trip1.webp";
+const bg2 = "/images/tour-dtl/trip2.webp";
+const bg3 = "/images/tour-dtl/trip1.webp";
+
 
 const mainSliderTwoData = [
   {

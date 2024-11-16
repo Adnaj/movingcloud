@@ -78,7 +78,7 @@ const DestinationsOne = () => {
                 <Card.Body>
                   <div className="service_img13">
                     <Image
-                      src={require(`@/images/services/${card.img}`).default.src}
+                      src={`/images/services/${card.img}`}
                       alt={card.title}
                     />
                     <div className="overlay_card13"></div>
@@ -86,7 +86,7 @@ const DestinationsOne = () => {
                   <div className="service_details13">
                     <Image
                       src={
-                        require(`@/images/services/${card.icon}`).default.src
+                        `/images/services/${card.icon}`
                       }
                       alt={card.title}
                     />

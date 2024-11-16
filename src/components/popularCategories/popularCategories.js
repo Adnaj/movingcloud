@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import TourImages from "@/images/tourcategories/keralapkg.jpg";
+const TourImages = "/images/tourcategories/keralapkg.jpg";
 
 const DestinationsOne = () => {
   const cards = [
@@ -41,7 +41,7 @@ const DestinationsOne = () => {
                 <div className="card-img-container12">
                   <Image
                     src={
-                      require(`@/images/tourcategories/${card.img}`).default.src
+                      `/images/tourcategories/${card.img}`
                     }
                     alt={card.title}
                   />

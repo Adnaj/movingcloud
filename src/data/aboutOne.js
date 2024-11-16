@@ -1,6 +1,7 @@
-import about from "@/images/resources/about-one-img.png";
-import shape1 from "@/images/shapes/about-one-shape-1.png";
-import shape2 from "@/images/shapes/about-one-shape-2.png";
+const about = "/images/resources/about-one-img.png";
+const shape1 = "/images/shapes/about-one-shape-1.png";
+const shape2 = "/images/shapes/about-one-shape-2.png";
+
 
 const aboutOne = {
   about,

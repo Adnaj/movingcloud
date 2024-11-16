@@ -1,6 +1,7 @@
-import bg1 from "@/images/backgrounds/banner1.jpg";
-import bg2 from "@/images/backgrounds/banner2.jpg";
-import bg3 from "@/images/backgrounds/main-slider-1-3.jpg";
+const bg1 = "/images/backgrounds/banner1.jpg";
+const bg2 = "/images/backgrounds/banner2.jpg";
+const bg3 = "/images/backgrounds/main-slider-1-3.jpg";
+
 
 const mainSliderData = [
   {

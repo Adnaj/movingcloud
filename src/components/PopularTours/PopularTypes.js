@@ -1,10 +1,10 @@
 import aboutOne from "@/data/aboutOne";
-import about1 from "@/images/blog/news-one-img.jpg";
-import Honeymoon from "@/images/theametour/honeymoon.png";
-import Pilgrimages from "@/images/theametour/pilgrimages.webp";
-import Ayurvedic from "@/images/theametour/ayurvedic2.png";
-import Adventure from "@/images/theametour/adventure.png";
-import Arrow from "@/images/tour-dtl/arrowright.svg";
+const about1 = "/images/blog/news-one-img.jpg";
+const Honeymoon = "/images/theametour/honeymoon.png";
+const Pilgrimages = "/images/theametour/pilgrimages.webp";
+const Ayurvedic = "/images/theametour/ayurvedic2.png";
+const Adventure = "/images/theametour/adventure.png";
+const Arrow = "/images/tour-dtl/arrowright.svg";
 import React from "react";
 import Link from "next/link";
 import { Col, Container, Image, Row } from "react-bootstrap";
@@ -22,22 +22,22 @@ const {
 } = aboutOne;
 const themePackages = [
     {
-      img:Honeymoon.src,
+      img:Honeymoon,
       headTitle: "Honeymoon",
       packageTitle: "Honeymoon Packages",
     },
     {
-      img: Pilgrimages.src,
+      img: Pilgrimages,
       headTitle: "Pilgrimages",
       packageTitle: "Pilgrimages Packages",
     },
     {
-      img: Ayurvedic.src,
+      img: Ayurvedic,
       headTitle: "Ayurvedic",
       packageTitle: "Ayurvedic Packages",
     },
     {
-      img: Adventure.src,
+      img: Adventure,
       headTitle: "Adventure",
       packageTitle: "Adventure Packages",
     },

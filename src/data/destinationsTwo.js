@@ -1,4 +1,5 @@
-import image from "@/images/shapes/destinations-two-shape.png";
+const image = "/images/shapes/destinations-two-shape.png";
+
 
 const destinationsTwo = {
   image,

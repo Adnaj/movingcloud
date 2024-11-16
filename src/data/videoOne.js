@@ -1,4 +1,4 @@
-import bg from "@/images/backgrounds/numbersbg.webp";
+const bg = "/images/backgrounds/numbersbg.webp";
 
 const videoOne = {
   bg,

@@ -10,6 +10,11 @@ const nextConfig = {
     };
     return config;
   },
+
+  // Optional: Disable Next.js image optimization (only if you use <img> tag instead of <Image> component)
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;

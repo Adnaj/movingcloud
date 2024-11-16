@@ -1,5 +1,5 @@
-import logo from "@/images/resources/logo.png";
-import logo2 from "@/images/resources/logo-2.png";
+const logo = "/images/resources/logo.png";
+const logo2 = "/images/resources/logo-2.png";
 
 const navItems = [
   {
